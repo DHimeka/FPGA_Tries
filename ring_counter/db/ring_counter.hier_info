@@ -1,0 +1,124 @@
+|ring_counter_top_wrapper
+sys_rst_i => sys_rst_i.IN1
+clk_i => clk_i.IN1
+counter_o[0] << ring_counter_top:ring_counter_top_inst.counter_o
+counter_o[1] << ring_counter_top:ring_counter_top_inst.counter_o
+counter_o[2] << ring_counter_top:ring_counter_top_inst.counter_o
+counter_o[3] << ring_counter_top:ring_counter_top_inst.counter_o
+counter_o[4] << ring_counter_top:ring_counter_top_inst.counter_o
+counter_o[5] << ring_counter_top:ring_counter_top_inst.counter_o
+counter_o[6] << ring_counter_top:ring_counter_top_inst.counter_o
+counter_o[7] << ring_counter_top:ring_counter_top_inst.counter_o
+
+
+|ring_counter_top_wrapper|clk_div:clk_div_inst
+clk_i => counter[0].CLK
+clk_i => counter[1].CLK
+clk_i => counter[2].CLK
+clk_i => counter[3].CLK
+clk_i => counter[4].CLK
+clk_i => counter[5].CLK
+clk_i => counter[6].CLK
+clk_i => counter[7].CLK
+clk_i => counter[8].CLK
+clk_i => counter[9].CLK
+clk_i => counter[10].CLK
+clk_i => counter[11].CLK
+clk_i => counter[12].CLK
+clk_i => counter[13].CLK
+clk_i => counter[14].CLK
+clk_i => counter[15].CLK
+clk_i => counter[16].CLK
+clk_i => counter[17].CLK
+clk_i => counter[18].CLK
+clk_i => counter[19].CLK
+clk_i => counter[20].CLK
+clk_i => counter[21].CLK
+clk_o <= counter[21].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst
+clk_i => clk_i.IN8
+sys_rst_i => sys_rst_i.IN8
+counter_o[0] <= w_q0.DB_MAX_OUTPUT_PORT_TYPE
+counter_o[1] <= w_q1.DB_MAX_OUTPUT_PORT_TYPE
+counter_o[2] <= w_q2.DB_MAX_OUTPUT_PORT_TYPE
+counter_o[3] <= w_q3.DB_MAX_OUTPUT_PORT_TYPE
+counter_o[4] <= w_q4.DB_MAX_OUTPUT_PORT_TYPE
+counter_o[5] <= w_q5.DB_MAX_OUTPUT_PORT_TYPE
+counter_o[6] <= w_q6.DB_MAX_OUTPUT_PORT_TYPE
+counter_o[7] <= w_q7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst|d_ff:d_ff_1_inst
+clk_i => q_o~reg0.CLK
+pr_i => q_o.IN0
+clr_i => q_o~reg0.ACLR
+clr_i => q_o.IN1
+d_i => q_o~reg0.DATAIN
+q_o <= q_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst|d_ff:d_ff_2_inst
+clk_i => q_o~reg0.CLK
+pr_i => q_o.IN0
+clr_i => q_o~reg0.ACLR
+clr_i => q_o.IN1
+d_i => q_o~reg0.DATAIN
+q_o <= q_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst|d_ff:d_ff_3_inst
+clk_i => q_o~reg0.CLK
+pr_i => q_o.IN0
+clr_i => q_o~reg0.ACLR
+clr_i => q_o.IN1
+d_i => q_o~reg0.DATAIN
+q_o <= q_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst|d_ff:d_ff_4_inst
+clk_i => q_o~reg0.CLK
+pr_i => q_o.IN0
+clr_i => q_o~reg0.ACLR
+clr_i => q_o.IN1
+d_i => q_o~reg0.DATAIN
+q_o <= q_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst|d_ff:d_ff_5_inst
+clk_i => q_o~reg0.CLK
+pr_i => q_o.IN0
+clr_i => q_o~reg0.ACLR
+clr_i => q_o.IN1
+d_i => q_o~reg0.DATAIN
+q_o <= q_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst|d_ff:d_ff_6_inst
+clk_i => q_o~reg0.CLK
+pr_i => q_o.IN0
+clr_i => q_o~reg0.ACLR
+clr_i => q_o.IN1
+d_i => q_o~reg0.DATAIN
+q_o <= q_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst|d_ff:d_ff_7_inst
+clk_i => q_o~reg0.CLK
+pr_i => q_o.IN0
+clr_i => q_o~reg0.ACLR
+clr_i => q_o.IN1
+d_i => q_o~reg0.DATAIN
+q_o <= q_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ring_counter_top_wrapper|ring_counter_top:ring_counter_top_inst|d_ff:d_ff_8_inst
+clk_i => q_o~reg0.CLK
+pr_i => q_o.IN0
+clr_i => q_o~reg0.ACLR
+clr_i => q_o.IN1
+d_i => q_o~reg0.DATAIN
+q_o <= q_o~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

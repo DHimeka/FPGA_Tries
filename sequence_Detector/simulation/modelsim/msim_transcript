@@ -1,0 +1,76 @@
+# Reading pref.tcl
+# do sequence_detector_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/A/code {C:/Users/DELL/Desktop/A/code/tb_sequence_detector.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:07 on Sep 04,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/A/code" C:/Users/DELL/Desktop/A/code/tb_sequence_detector.sv 
+# -- Compiling module tb_sequence_detector
+# 
+# Top level modules:
+# 	tb_sequence_detector
+# End time: 12:49:07 on Sep 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/A/code {C:/Users/DELL/Desktop/A/code/sequence_generator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:07 on Sep 04,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/A/code" C:/Users/DELL/Desktop/A/code/sequence_generator.sv 
+# -- Compiling module sequence_generator
+# 
+# Top level modules:
+# 	sequence_generator
+# End time: 12:49:07 on Sep 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/A/code {C:/Users/DELL/Desktop/A/code/jk_ff.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:07 on Sep 04,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/A/code" C:/Users/DELL/Desktop/A/code/jk_ff.sv 
+# -- Compiling module jk_ff
+# 
+# Top level modules:
+# 	jk_ff
+# End time: 12:49:07 on Sep 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/A/code {C:/Users/DELL/Desktop/A/code/sequence_detector.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:07 on Sep 04,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/A/code" C:/Users/DELL/Desktop/A/code/sequence_detector.sv 
+# -- Compiling module sequence_detector
+# 
+# Top level modules:
+# 	sequence_detector
+# End time: 12:49:07 on Sep 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.tb_sequence_detector
+# vsim work.tb_sequence_detector 
+# Start time: 12:49:19 on Sep 04,2023
+# Loading sv_std.std
+# Loading work.tb_sequence_detector
+# Loading work.sequence_detector
+# Loading work.jk_ff
+# Loading work.sequence_generator
+add wave -position insertpoint  \
+sim:/tb_sequence_detector/reset
+add wave -position insertpoint  \
+sim:/tb_sequence_detector/clk
+add wave -position insertpoint  \
+sim:/tb_sequence_detector/x
+add wave -position insertpoint  \
+sim:/tb_sequence_detector/y
+run
+run
+run
+run
+run
+# End time: 14:02:14 on Sep 04,2023, Elapsed time: 1:12:55
+# Errors: 0, Warnings: 0

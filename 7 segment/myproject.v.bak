@@ -1,0 +1,10 @@
+module myproject(
+	input wire [17:0] SW,
+	output wire [6:0] HEX0,
+	output wire [6:0] HEX1
+);
+
+hexdigit H0 (SW[3:0],HEX0);
+hexdigit H1 (SW[7:4],HEX1);
+
+endmodule

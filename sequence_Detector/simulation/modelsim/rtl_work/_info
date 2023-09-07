@@ -1,0 +1,115 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/A/code/simulation/modelsim
+vjk_ff
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1693811947
+!i10b 1
+!s100 ;^iO2G]B6:cW<n7B:BZ8T1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVM?HhWjcPzX7IhB[33lIQ3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1693806974
+8C:/Users/DELL/Desktop/A/code/jk_ff.sv
+FC:/Users/DELL/Desktop/A/code/jk_ff.sv
+!i122 2
+L0 1 27
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1693811947.000000
+!s107 C:/Users/DELL/Desktop/A/code/jk_ff.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/A/code|C:/Users/DELL/Desktop/A/code/jk_ff.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/DELL/Desktop/A/code
+Z9 tCvgOpt 0
+vsequence_detector
+R1
+R2
+!i10b 1
+!s100 L`TO77`NZWh@RZ^mD?F]J3
+R3
+I_Iog8oze`jB95AdBlH;VZ0
+R4
+S1
+R0
+w1693811264
+8C:/Users/DELL/Desktop/A/code/sequence_detector.sv
+FC:/Users/DELL/Desktop/A/code/sequence_detector.sv
+!i122 3
+Z10 L0 1 40
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/A/code/sequence_detector.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/A/code|C:/Users/DELL/Desktop/A/code/sequence_detector.sv|
+!i113 1
+R7
+R8
+R9
+vsequence_generator
+R1
+R2
+!i10b 1
+!s100 oCB^<o>[eA7PZ3QKazSTJ0
+R3
+IAHgR5<OCnOU;B`:_VgT9V3
+R4
+S1
+R0
+w1655092468
+8C:/Users/DELL/Desktop/A/code/sequence_generator.sv
+FC:/Users/DELL/Desktop/A/code/sequence_generator.sv
+!i122 1
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/A/code/sequence_generator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/A/code|C:/Users/DELL/Desktop/A/code/sequence_generator.sv|
+!i113 1
+R7
+R8
+R9
+vtb_sequence_detector
+R1
+R2
+!i10b 1
+!s100 ieEMSSf6BmH4?aR:H05V=0
+R3
+I9W3G]mMW2W@L;2DN:CiBW1
+R4
+S1
+R0
+w1693811784
+8C:/Users/DELL/Desktop/A/code/tb_sequence_detector.sv
+FC:/Users/DELL/Desktop/A/code/tb_sequence_detector.sv
+!i122 0
+L0 5 47
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/A/code/tb_sequence_detector.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/A/code|C:/Users/DELL/Desktop/A/code/tb_sequence_detector.sv|
+!i113 1
+R7
+R8
+R9

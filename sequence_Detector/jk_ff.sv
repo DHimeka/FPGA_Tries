@@ -1,0 +1,27 @@
+module jk_ff(reset, clk, j, k, q);	// Module definition start
+	
+	input reset, clk, j, k;	// Define inputs
+							// The 'reset'signal is used to reset the internal state of
+							// the flip-flop to logic zero.
+	
+	output q;	// Define outputs
+	
+	reg q;	// Allocate a register to hold the internal state.
+			// Since both the output and the reg have the same name, they are
+			// connected automatically.
+	
+	always @(posedge clk, posedge reset) begin	// Triggered at each positive edge 
+												// of 'clk' or 'reset' signal.
+		
+		if (reset) begin 
+			q <= 0;		// If 'reset' is high, reset the internal state to zero.
+		end
+		else begin		// Otherwise, update q according to truth table.
+			// ********************************
+			// ****** your code goes here *****
+			// ********************************
+			q <= (j&~q)|(~k&q);
+		end
+	end
+	
+endmodule	// Module definition end

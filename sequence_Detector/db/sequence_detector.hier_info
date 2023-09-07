@@ -1,0 +1,67 @@
+|sequence_detector_top
+reset_inv => reset.IN2
+clk => clk_div_reg[0].CLK
+clk => clk_div_reg[1].CLK
+clk => clk_div_reg[2].CLK
+clk => clk_div_reg[3].CLK
+clk => clk_div_reg[4].CLK
+clk => clk_div_reg[5].CLK
+clk => clk_div_reg[6].CLK
+clk => clk_div_reg[7].CLK
+clk => clk_div_reg[8].CLK
+clk => clk_div_reg[9].CLK
+clk => clk_div_reg[10].CLK
+clk => clk_div_reg[11].CLK
+clk => clk_div_reg[12].CLK
+clk => clk_div_reg[13].CLK
+clk => clk_div_reg[14].CLK
+clk => clk_div_reg[15].CLK
+clk => clk_div_reg[16].CLK
+clk => clk_div_reg[17].CLK
+clk => clk_div_reg[18].CLK
+clk => clk_div_reg[19].CLK
+clk => clk_div_reg[20].CLK
+clk => clk_div_reg[21].CLK
+clk => clk_div_reg[22].CLK
+clk => clk_div_reg[23].CLK
+clk => clk_div_reg[24].CLK
+x << x.DB_MAX_OUTPUT_PORT_TYPE
+y << sequence_detector:sd.y
+blink << clk_div_reg[24].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequence_detector_top|sequence_detector:sd
+reset => reset.IN2
+clk => clk.IN2
+x => k2.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequence_detector_top|sequence_detector:sd|jk_ff:ff1
+reset => q~reg0.ACLR
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequence_detector_top|sequence_detector:sd|jk_ff:ff2
+reset => q~reg0.ACLR
+clk => q~reg0.CLK
+j => q.IN1
+k => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequence_detector_top|sequence_generator:sg
+reset => seq_reg[0].ACLR
+reset => seq_reg[1].ACLR
+reset => seq_reg[2].ACLR
+reset => seq_reg[3].PRESET
+clk => seq_reg[0].CLK
+clk => seq_reg[1].CLK
+clk => seq_reg[2].CLK
+clk => seq_reg[3].CLK
+seq <= seq_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

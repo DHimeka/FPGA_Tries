@@ -1,0 +1,125 @@
+module hexdigit(
+	input wire [3:0] in,
+	output reg [6:0] out
+);
+
+always @*
+begin
+	out= 7'b1111111;
+	
+	case(in)
+	
+		4'h0: begin
+		
+		out[6]=1'b1;
+		out[5]=1'b0;
+		out[4]=1'b0;
+		out[3]=1'b0;
+		out[2]=1'b0;
+		out[1]=1'b0;
+		out[0]=1'b0;
+		end
+		
+		4'h1:begin
+		
+		out[6]=1'b1;
+		out[5]=1'b1;
+		out[4]=1'b1;
+		out[3]=1'b1;
+		out[2]=1'b0;
+		out[1]=1'b0;
+		out[0]=1'b1;
+		end
+		
+		4'h2: begin
+		
+		out[6]=1'b0;
+		out[5]=1'b1;
+		out[4]=1'b0;
+		out[3]=1'b0;
+		out[2]=1'b1;
+		out[1]=1'b0;
+		out[0]=1'b0;
+		end
+		
+		4'h3: begin
+		
+		out[6]=1'b0;
+		out[5]=1'b1;
+		out[4]=1'b1;
+		out[3]=1'b0;
+		out[2]=1'b0;
+		out[1]=1'b0;
+		out[0]=1'b0;
+		end
+		
+		4'h4: begin
+		out[6]=1'b0;
+		out[5]=1'b0;
+		out[4]=1'b1;
+		out[3]=1'b1;
+		out[2]=1'b0;
+		out[1]=1'b0;
+		out[0]=1'b1;
+		
+		end
+		
+		4'h5: begin
+		out[6]=1'b0;
+		out[5]=1'b0;
+		out[4]=1'b1;
+		out[3]=1'b0;
+		out[2]=1'b0;
+		out[1]=1'b1;
+		out[0]=1'b0;
+		end
+		
+		4'h6: begin
+		out[6]=1'b0;
+		out[5]=1'b0;
+		out[4]=1'b0;
+		out[3]=1'b0;
+		out[2]=1'b0;
+		out[1]=1'b1;
+		out[0]=1'b0;
+		end
+		
+		4'h7: begin
+		out[6]=1'b1;
+		out[5]=1'b1;
+		out[4]=1'b1;
+		out[3]=1'b1;
+		out[2]=1'b0;
+		out[1]=1'b0;
+		out[0]=1'b0;
+		end
+		
+		4'h8: begin
+		out[6]=1'b0;
+		out[5]=1'b0;
+		out[4]=1'b0;
+		out[3]=1'b0;
+		out[2]=1'b0;
+		out[1]=1'b0;
+		out[0]=1'b0;
+		end
+		
+		4'h9:begin
+		out[6]=1'b0;
+		out[5]=1'b0;
+		out[4]=1'b1;
+		out[3]=1'b0;
+		out[2]=1'b0;
+		out[1]=1'b0;
+		out[0]=1'b0;
+		end
+		
+		default: 
+		out= 7'b1111111;
+	endcase
+end
+endmodule	
+		
+		
+		
+		
