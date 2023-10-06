@@ -1,0 +1,90 @@
+module Datapath_tb();
+
+    // Define parameters
+    parameter CLK_PERIOD = 10;  // Clock period in simulation time units
+    parameter SIM_TIME   = 500; // Total simulation time
+
+    // Declare signals for connecting the test bench to the Datapath module
+    logic clk, reset;
+    logic isALUreg, regWrite, isJAL, isJALR, isBranch, isLUI, isAUIPC, isLoad, isStore, isShamt;
+    logic [11:0] Imm;
+    logic [3:0] aluControl;
+    logic [31:0] instr, memRdata;
+    logic [31:0] pc, aluOut, memWdata, aluIn1, aluIn2, Simm, Jimm, Bimm, Iimm, A_bus, B_bus;
+    logic [4:0] rs1, rs2, data_to_write;
+    logic [3:0] memWMask;
+    logic isZero, isBLT, isBGT;
+
+    // Instantiate the Datapath module
+    Datapath dut (
+        .clk(clk),
+        .reset(reset),
+        .isALUreg(isALUreg),
+        .regWrite(regWrite),
+        .isJAL(isJAL),
+        .isJALR(isJALR),
+        .isBranch(isBranch),
+        .isLUI(isLUI),
+        .isAUIPC(isAUIPC),
+        .isLoad(isLoad),
+        .isStore(isStore),
+        .isShamt(isShamt),
+        .Imm(Imm),
+        .aluControl(aluControl),
+        .instr(instr),
+        .memRdata(memRdata),
+        .pc(pc),
+        .aluOut(aluOut),
+        .memWdata(memWdata),
+        .aluIn1(aluIn1),
+        .aluIn2(aluIn2),
+        .Simm(Simm),
+        .Jimm(Jimm),
+        .Bimm(Bimm),
+        .Iimm(Iimm),
+        .A_bus(A_bus),
+        .B_bus(B_bus),
+        .rs1(rs1),
+        .rs2(rs2),
+        .data_to_write(data_to_write),
+        .memWMask(memWMask),
+        .isZero(isZero),
+        .isBLT(isBLT),
+        .isBGT(isBGT)
+    );
+
+    // Clock generation
+    always begin
+        clk = 0;
+        #CLK_PERIOD/2;
+        clk = 1;
+        #CLK_PERIOD/2;
+    end
+
+    // Reset generation
+    initial begin
+        reset = 1;
+        #100;  // Hold reset for a few clock cycles
+        reset = 0;
+    end
+
+    // Test scenarios - You can add more test cases as needed
+    initial begin
+
+    
+		
+
+    // Set control signals accordingly
+		//isALUreg = 1; // Indicate that it's an ALU operation
+		regWrite = 1; // Enable register write
+		//aluControl = 4'b0010; // ALU control for ADD operation
+
+  
+
+    $finish;
+end
+
+        $finish;
+    end
+
+endmodule

@@ -1,0 +1,122 @@
+module ALUnitHW #(
+    parameter DATA_WIDTH = 32,
+    parameter OPCODE_LENGTH = 7,
+    parameter FUNCT3_LENGTH = 3,
+    parameter FUNCT7_LENGTH = 7, 
+    parameter CURRENT_PC = 12'b1
+)(
+    input logic [DATA_WIDTH-1:0] rs1,
+    input logic [DATA_WIDTH-1:0] rs2,
+    input logic [OPCODE_LENGTH-1:0] Opcode,
+    input logic [FUNCT3_LENGTH-1:0] Funct3,
+    input logic [FUNCT7_LENGTH-1:0] Funct7,
+	 input logic [15:0] immI,
+    
+    output logic [DATA_WIDTH-1:0] rd,
+    output logic Con_BLT,
+    output logic Con_BGT,
+    output logic zero
+);
+
+  
+    always_comb begin
+        rd = 'd0;
+        Con_BLT = 'b0;
+        Con_BGT = 'b0;
+        zero = 'b0;
+
+     
+        case(Opcode)
+            // OPCODE for R-type instructions
+            7'b0110011: begin
+                case(Funct3)
+                    // funct3 for ADD
+                    3'b000: begin
+                        case(Funct7)
+                            7'b0000000: alu_input = rs1 + rs2; // ADD
+                            7'b0100000: alu_input = rs1 - rs2; // SUB
+													
+                   
+                            default: alu_input = 'b0; // Invalid FUNCT7 value
+                        endcase
+                    end
+
+                    // funct3 for SLL
+                    3'b001: alu_input = rs1 << (rs2[4:0] & 5'b11111); // Corrected the mask to 5 bits
+
+                    // funct3 for SLT
+                    3'b010: alu_input = ($signed(rs1) < $signed(rs2)) ? 1'b1 : 1'b0;
+
+                    // funct3 for SLTU
+                    3'b011: alu_input = (rs1 < rs2) ? 1'b1 : 1'b0;
+
+                    // funct3 for XOR
+                    3'b100: alu_input = rs1 ^ rs2;
+
+                    // funct3 for SRL/SRA
+                    3'b101: begin
+                        case(Funct7)
+                            7'b0000000: alu_input = rs1 >> (rs2[4:0] & 5'b11111); // Corrected the mask to 5 bits
+                            7'b0100000: alu_input = $signed(rs1) >>> (rs2[4:0] & 5'b11111); // Corrected the mask to 5 bits
+                            default: alu_input = 'b0; // Invalid FUNCT7 value
+                        endcase
+                    end
+
+                    // funct3 for OR
+                    3'b110: alu_input = rs1 | rs2;
+
+                    // funct3 for AND
+                    3'b111: alu_input = rs1 & rs2;
+
+                    default: alu_input = 'b0;
+                endcase
+            end
+
+            // OPCODE for I-type instructions
+            7'b0010011: begin
+                case(Funct3)
+                    // funct3 for ADDI
+                    3'b000: alu_input = rs1 + sign_extended_imm;
+
+                    // funct3 for SLTI
+                    3'b010: alu_input = ($signed(rs1) < $signed(sign_extended_imm)) ? 1'b1 : 1'b0;
+
+                    // funct3 for SLTIU
+                    3'b011: alu_input = (rs1 < sign_extended_imm) ? 1'b1 : 1'b0;
+
+                    // funct3 for XORI
+                    3'b100: alu_input = rs1 ^ sign_extended_imm;
+
+                    // funct3 for ORI
+                    3'b110: alu_input = rs1 | sign_extended_imm;
+
+                    // funct3 for ANDI
+                    3'b111: alu_input = rs1 & sign_extended_imm;
+
+                    // funct3 for SLLI/SRLI/SRAI
+                    3'b001, 3'b101: begin
+                        case(Funct7)
+                            7'b0000000: alu_input = rs1 << (sign_extended_imm[4:0] & 5'b11111);
+                            7'b0100000: alu_input = rs1 >> (sign_extended_imm[4:0] & 5'b11111);
+                            7'b0100000: alu_input = $signed(rs1) >>> (sign_extended_imm[4:0] & 5'b11111);
+                            default: alu_input = 'b0; // Invalid FUNCT7 value
+                        endcase
+                    end
+
+                    default: alu_input = 'b0;
+                endcase
+            end
+
+          
+
+            // OPCODE for other custom instructions
+            // ...
+
+            default: alu_input = 'b0;
+        endcase
+
+        // Output multiplexers for rd and Con_BLT
+        // These are now handled by the instantiated muxes
+    end
+
+endmodule

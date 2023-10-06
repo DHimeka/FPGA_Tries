@@ -1,0 +1,109 @@
+# Reading pref.tcl
+# do NP_Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor {C:/Users/DELL/Desktop/Processor/ALUnitHW.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:19 on Oct 06,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor" C:/Users/DELL/Desktop/Processor/ALUnitHW.sv 
+# -- Compiling module ALUnitHW
+# 
+# Top level modules:
+# 	ALUnitHW
+# End time: 19:00:19 on Oct 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor {C:/Users/DELL/Desktop/Processor/RegFiles.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:19 on Oct 06,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor" C:/Users/DELL/Desktop/Processor/RegFiles.sv 
+# -- Compiling module RegFiles
+# 
+# Top level modules:
+# 	RegFiles
+# End time: 19:00:19 on Oct 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor {C:/Users/DELL/Desktop/Processor/InstructionMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:19 on Oct 06,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor" C:/Users/DELL/Desktop/Processor/InstructionMemory.sv 
+# -- Compiling module InstructionMemory
+# 
+# Top level modules:
+# 	InstructionMemory
+# End time: 19:00:19 on Oct 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor {C:/Users/DELL/Desktop/Processor/pc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:19 on Oct 06,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor" C:/Users/DELL/Desktop/Processor/pc.sv 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 19:00:19 on Oct 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor {C:/Users/DELL/Desktop/Processor/Datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:19 on Oct 06,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor" C:/Users/DELL/Desktop/Processor/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 19:00:19 on Oct 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor {C:/Users/DELL/Desktop/Processor/Datapath_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:19 on Oct 06,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor" C:/Users/DELL/Desktop/Processor/Datapath_tb.sv 
+# -- Compiling module Datapath_tb
+# 
+# Top level modules:
+# 	Datapath_tb
+# End time: 19:00:19 on Oct 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor {C:/Users/DELL/Desktop/Processor/ControlUnit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:19 on Oct 06,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor" C:/Users/DELL/Desktop/Processor/ControlUnit.sv 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 19:00:19 on Oct 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.Datapath_tb
+# vsim work.Datapath_tb 
+# Start time: 19:00:24 on Oct 06,2023
+# Loading sv_std.std
+# Loading work.Datapath_tb
+# Loading work.Datapath
+# Loading work.pc
+# Loading work.InstructionMemory
+# Loading work.RegFiles
+# Loading work.ControlUnit
+# Loading work.ALUnitHW
+add wave -position end  sim:/Datapath_tb/clk
+add wave -position end  sim:/Datapath_tb/reset
+add wave -position end  sim:/Datapath_tb/regWrite
+add wave -position end  sim:/Datapath_tb/isALUreg
+add wave -position end  sim:/Datapath_tb/pcNext
+add wave -position end  sim:/Datapath_tb/isZero
+add wave -position end  sim:/Datapath_tb/isBLT
+add wave -position end  sim:/Datapath_tb/isBGT
+add wave -position end  sim:/Datapath_tb/aluout
+run
+run
+run
+run
+# End time: 19:01:44 on Oct 06,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
