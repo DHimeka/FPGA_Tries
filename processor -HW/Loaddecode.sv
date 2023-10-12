@@ -1,0 +1,38 @@
+module LoadStoredecode #(
+	 parameter OPCODE_LENGTH = 7,
+    parameter FUNCT3_LENGTH = 3,
+    parameter FUNCT7_LENGTH = 7 
+
+)(
+	input logic LoadMux,//include other signals here as well
+
+	input logic [OPCODE_LENGTH-1:0] Opcode,
+   input logic [FUNCT3_LENGTH-1:0] Funct3,
+   input logic [FUNCT7_LENGTH-1:0] Funct7,
+	
+	
+	output logic [2:0] Control_signal
+
+
+);
+
+always_comb begin
+    Control_signal = 2'b00; // Default value
+
+	 case (Opcode)
+        7'b0000011: begin
+            case (Funct3)
+                3'b000 || 3'b100 : Control_signal = 2'b01;//[7:0] lb,lbu
+					 3'b001 || 3'b101 : Control_signal = 2'b10;// lh,lhu
+					 3'b010 : Control_signal = 2'b11; //lw
+				endcase
+			end
+			
+		endcase
+
+		
+	end
+	
+
+
+endmodule

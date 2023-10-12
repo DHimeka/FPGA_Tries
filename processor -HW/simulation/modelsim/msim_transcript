@@ -1,0 +1,201 @@
+# Reading pref.tcl
+# do NP_Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Datamemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:23 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Datamemory.sv 
+# -- Compiling module Datamemory
+# 
+# Top level modules:
+# 	Datamemory
+# End time: 01:16:23 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/ALUnitHW.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:23 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/ALUnitHW.sv 
+# -- Compiling module ALUnitHW
+# 
+# Top level modules:
+# 	ALUnitHW
+# End time: 01:16:23 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Mux2input.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:23 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Mux2input.sv 
+# -- Compiling module Mux2input
+# 
+# Top level modules:
+# 	Mux2input
+# End time: 01:16:23 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/RegFiles.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/RegFiles.sv 
+# -- Compiling module RegFiles
+# 
+# Top level modules:
+# 	RegFiles
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/InstructionMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/InstructionMemory.sv 
+# -- Compiling module InstructionMemory
+# 
+# Top level modules:
+# 	InstructionMemory
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/pc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/pc.sv 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Datapath_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Datapath_tb.sv 
+# -- Compiling module Datapath_tb
+# 
+# Top level modules:
+# 	Datapath_tb
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/ControlUnit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/ControlUnit.sv 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/imm_Gen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/imm_Gen.sv 
+# -- Compiling module imm_Gen
+# 
+# Top level modules:
+# 	imm_Gen
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Decoder3by3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Decoder3by3.sv 
+# -- Compiling module Decoder3by3
+# 
+# Top level modules:
+# 	Decoder3by3
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/LoadStoredecode.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/LoadStoredecode.sv 
+# -- Compiling module LoadStoredecode
+# 
+# Top level modules:
+# 	LoadStoredecode
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/adder_32.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/adder_32.sv 
+# -- Compiling module adder_32
+# 
+# Top level modules:
+# 	adder_32
+# End time: 01:16:24 on Oct 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ Copy {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/BranchSel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:16:24 on Oct 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/BranchSel.sv 
+# -- Compiling module BranchSel
+# 
+# Top level modules:
+# 	BranchSel
+# End time: 01:16:25 on Oct 12,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.Datapath_tb
+# vsim work.Datapath_tb 
+# Start time: 01:16:27 on Oct 12,2023
+# Loading sv_std.std
+# Loading work.Datapath_tb
+# Loading work.Datapath
+# Loading work.adder_32
+# Loading work.Mux2input
+# Loading work.BranchSel
+# Loading work.pc
+# Loading work.InstructionMemory
+# Loading work.RegFiles
+# Loading work.imm_Gen
+# Loading work.ControlUnit
+# Loading work.ALUnitHW
+# Loading work.Datamemory
+# Loading work.Decoder3by3
+# Loading work.LoadStoredecode
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (32) for port 'a'. The port definition is at: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Datamemory.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/Dm File: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - Copy/Datapath.sv Line: 153
+add wave -position end  sim:/Datapath_tb/clk
+add wave -position end  sim:/Datapath_tb/reset
+add wave -position end  sim:/Datapath_tb/dut/Imem/instruction
+add wave -position end  sim:/Datapath_tb/dut/pcreg/pc_in
+add wave -position end  sim:/Datapath_tb/dut/pcreg/pc_out
+add wave -position end  sim:/Datapath_tb/dut/regF/DATA_WIDTH
+add wave -position end  sim:/Datapath_tb/dut/regF/ADDRESS_WIDTH
+add wave -position end  sim:/Datapath_tb/dut/regF/NUM_REGS
+add wave -position end  sim:/Datapath_tb/dut/regF/clk
+add wave -position end  sim:/Datapath_tb/dut/regF/rst
+add wave -position end  sim:/Datapath_tb/dut/regF/RegWrite
+add wave -position end  sim:/Datapath_tb/dut/regF/rg_wrt_dest
+add wave -position end  sim:/Datapath_tb/dut/regF/rs1
+add wave -position end  sim:/Datapath_tb/dut/regF/rs2
+add wave -position end  sim:/Datapath_tb/dut/regF/rg_wrt_data
+add wave -position end  sim:/Datapath_tb/dut/regF/read_reg1
+add wave -position end  sim:/Datapath_tb/dut/regF/read_reg2
+add wave -position end  sim:/Datapath_tb/dut/regF/i
+add wave -position end  sim:/Datapath_tb/dut/regF/register_file
+add wave -position end  sim:/Datapath_tb/dut/alu/DATA_WIDTH
+add wave -position end  sim:/Datapath_tb/dut/alu/rs1
+add wave -position end  sim:/Datapath_tb/dut/alu/rs2
+add wave -position end  sim:/Datapath_tb/dut/alu/aluControl
+add wave -position end  sim:/Datapath_tb/dut/alu/rd
+add wave -position end  sim:/Datapath_tb/dut/alu/zero
+run
+# End time: 01:18:00 on Oct 12,2023, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 1

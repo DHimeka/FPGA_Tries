@@ -1,0 +1,31 @@
+module Decoder3by3 (
+    input [31:0] result, LoadMux // 3-bit input for selecting one of 3 outputs
+    input [2:0] selection_input, // 3-bit selection input
+	 input [31:0] Inst,
+    output [31:0] out,
+    
+);
+logic [31:0] out0,
+logic [15:0] out1,
+logic [7:0] out2
+
+Loaddecode ld(
+	.LoadMux(LoadMux),
+	.Opcode(Inst[6:0]),
+	.Funct3(Inst[14:12]),
+	.Funct7(Inst[31:25]),
+	.Control_signal(selection_input)
+
+
+);
+
+always_comb begin
+        case (selection_input)
+            2'b01: out ={result[7]? {24{1'b1}}:24'b0, result[7:0]}; // Select out2
+            2'b10: out ={result[15]? {16{1'b1}}:16'b0, result[15:0]}; // Select out1
+            2'b11: out = result; // Select out3
+            default: out = result; // Default value
+        endcase
+    end
+end
+endmodule
