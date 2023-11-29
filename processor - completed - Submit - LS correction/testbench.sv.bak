@@ -1,0 +1,70 @@
+module testbench;
+
+  // Define parameters
+  parameter INPUT_WIDTH = 32;
+  parameter DECIMAL_DIGITS = 3;
+
+  // Declare signals for the testbench
+  logic clk;
+  logic rst;
+  logic en;
+  logic [INPUT_WIDTH-1:0] bin;
+  logic [DECIMAL_DIGITS*4-1:0] bcd;
+  logic dv;
+  logic busy;
+  logic fin;
+
+  // Instantiate the module under test
+  Binary_to_BCD #(INPUT_WIDTH, DECIMAL_DIGITS) dut (
+    .i_Clock(clk),
+    .i_Binary(bin),
+    .i_Start(en),
+    .o_BCD(bcd),
+    .o_DV(dv)
+  );
+
+  // Clock generation
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+  end
+
+  // Test stimulus
+  initial begin
+    // Initialize signals
+    rst = 1;
+    en = 0;
+    bin = 0;
+
+    // Apply reset
+    #10 rst = 0;
+
+    // Test value 99
+    #10 en = 1;
+    bin = 99;
+    #20 en = 0;
+
+    // Test value 46
+    #10 en = 1;
+    bin = 46;
+    #20 en = 0;
+
+    // Test value 53
+    #10 en = 1;
+    bin = 53;
+    #20 en = 0;
+
+    // Add additional test cases as needed
+
+    // Finish the simulation
+    #10 $finish;
+  end
+
+  // Monitor signals
+  always @(posedge clk) begin
+    if (dv) begin
+      $display("Input: %d, BCD: %d", bin, bcd);
+    end
+  end
+
+endmodule

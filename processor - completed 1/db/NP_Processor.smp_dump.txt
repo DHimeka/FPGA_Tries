@@ -1,0 +1,5 @@
+
+State Machine - |try|Datapath:dp|Datamemory:Dm|signal
+Name signal.01 
+signal.00 0 
+signal.01 1 
