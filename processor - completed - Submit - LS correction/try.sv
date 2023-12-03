@@ -1,7 +1,7 @@
 module try(
     input logic clk, reset,
-    input logic [4:0] sw,
-	 input logic [8:0] swmem,
+    input logic [4:0] swval,
+	 input logic [8:0] extmemaddress,
     output logic [6:0] HEX4,
     output logic [6:0] HEX5,
 	 
@@ -12,9 +12,9 @@ module try(
 	 
 );
 
-logic [31:0] rdvalue, extmemdata;
-logic [4:0] swval;
-logic [8:0] extmemaddress;
+logic [31:0] rdval, extmemdata;
+
+
 logic [7:0] bcdrd;
 logic [7:0] bcddata;
 
@@ -23,7 +23,7 @@ Datapath dp (
     .reset(reset),
     .swval(swval),
 	 .extmemaddress(extmemaddress),
-    .rdvalue(rdvalue),
+    .rdval(rdval),
 	 .extmemdata(extmemdata)
 );
 
@@ -33,7 +33,7 @@ Clock_divider cd(
 );
 
 Binary_to_BCD uut (
-    .bin(rdvalue),
+    .bin(rdval),
     .bcd(bcdrd)
   );
 Binary_to_BCD uut1 (
@@ -42,11 +42,11 @@ Binary_to_BCD uut1 (
   );  
 
 
-hexdigit H4 ({sw==swval}?bcdrd[3:0]:4'b1111, HEX4);
-hexdigit H5 ({sw==swval}?bcdrd[7:4]:4'b1111, HEX5);
+hexdigit H4 (bcdrd[3:0], HEX4);
+hexdigit H5 (bcdrd[7:4], HEX5);
 
-hexdigit H1 ({swmem==extmemaddress}?bcddata[3:0]:4'b1111, HEX1);
-hexdigit H2 ({swmem==extmemaddress}?bcddata[7:4]:4'b1111, HEX2);
+hexdigit H1 (bcddata[3:0], HEX1);
+hexdigit H2 (bcddata[7:4], HEX2);
 
 
 

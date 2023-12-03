@@ -116,59 +116,59 @@
 					"strict" : false
 				},
 				{
-					"name" : "sw[1]",
+					"name" : "swval[3]",
 					"strict" : false
 				},
 				{
-					"name" : "sw[2]",
+					"name" : "swval[2]",
 					"strict" : false
 				},
 				{
-					"name" : "sw[3]",
+					"name" : "swval[1]",
 					"strict" : false
 				},
 				{
-					"name" : "sw[4]",
+					"name" : "swval[0]",
 					"strict" : false
 				},
 				{
-					"name" : "sw[0]",
+					"name" : "swval[4]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[8]",
+					"name" : "extmemaddress[5]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[0]",
+					"name" : "extmemaddress[4]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[1]",
+					"name" : "extmemaddress[7]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[2]",
+					"name" : "extmemaddress[6]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[3]",
+					"name" : "extmemaddress[3]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[4]",
+					"name" : "extmemaddress[2]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[5]",
+					"name" : "extmemaddress[1]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[6]",
+					"name" : "extmemaddress[0]",
 					"strict" : false
 				},
 				{
-					"name" : "swmem[7]",
+					"name" : "extmemaddress[8]",
 					"strict" : false
 				},
 				{

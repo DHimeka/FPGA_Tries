@@ -15,7 +15,8 @@ module RegFiles #(
 
    output logic [DATA_WIDTH-1:0] read_reg1, //content of reg_file[rg_rd_addr1] is loaded into
    output logic [DATA_WIDTH-1:0] read_reg2, //content of reg_file[rg_rd_addr2] is loaded into
-	output logic [ADDRESS_WIDTH-1:0] extaddress
+	input logic [ADDRESS_WIDTH-1:0] extaddress,
+	output logic [31:0] rdval
    );
 
 integer 	 i;
@@ -38,14 +39,15 @@ end
 assign read_reg1 = register_file[rs1];
 assign read_reg2 = register_file[rs2];
 
-always @(*) begin
-   if (RegWrite) begin
-      extaddress <= rg_wrt_dest;
-   end
-	else begin
-		extaddress<= 1'bx;
-	end
-end
+//always @(*) begin
+//   if (RegWrite) begin
+//      extaddress <= rg_wrt_dest;
+//   end
+//	else begin
+//		extaddress<= 1'bx;
+//	end
+//end
 
+assign rdval = register_file[extaddress];
 
 endmodule

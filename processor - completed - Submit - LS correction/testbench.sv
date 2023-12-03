@@ -12,9 +12,9 @@ module testbench;
   // stimulus
   initial begin
     // Test case 1: bin = 99
-    bin = 32'h00000063; // 99 in hexadecimal
+    bin = 32'b11111; // 99 in hexadecimal
     #10; // wait for 10 time units
-    $display("Input: %d, Output BCD: %d", bin, bcd);
+    $display("Input: %d, Output BCD: %b", bin, bcd);
 
     // Test case 2: bin = 46
     bin = 32'h0000002E; // 46 in hexadecimal

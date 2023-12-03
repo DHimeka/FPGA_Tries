@@ -1,4 +1,3 @@
-
 module Binary_to_BCD(
    input logic [31:0] bin,
    output logic [7:0] bcd

@@ -1,0 +1,21 @@
+module try(
+	input clk,reset,
+	input logic [31:0] pc,rdvalue,
+	output logic [6:0] HEX0,
+	output logic [6:0] HEX1
+);
+
+Datapath dp (
+        .clk(clk),
+        .reset(reset),
+		  .pc(pc),
+		  .rdvalue(rdvalue)
+    );
+
+hexdigit H0 (pc[15:0],HEX0);
+hexdigit H1 (pc[31:16],HEX1);
+
+hexdigit H2	(rdvalue[15:0],HEX2);
+gexdigit H3 (rdvalue[31:16],HEX3);
+
+endmodule

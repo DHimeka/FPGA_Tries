@@ -1,0 +1,25 @@
+Resource,Usage
+Estimated Total logic elements,"29,974"
+,
+Total combinational functions,13302
+Logic element usage by number of LUT inputs,
+    -- 4 input functions,11982
+    -- 3 input functions,1178
+    -- <=2 input functions,142
+,
+Logic elements by mode,
+    -- normal mode,12866
+    -- arithmetic mode,436
+,
+Total registers,16797
+    -- Dedicated logic registers,16797
+    -- I/O registers,0
+,
+I/O pins,21
+,
+Embedded Multiplier 9-bit elements,0
+,
+Maximum fan-out node,Clock_divider:cd|clock_out
+Maximum fan-out,16768
+Total fan-out,102171
+Average fan-out,3.39

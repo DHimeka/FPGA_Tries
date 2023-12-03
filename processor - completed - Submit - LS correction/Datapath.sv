@@ -1,8 +1,8 @@
 module Datapath(
 	 input logic clk, reset,
-	 output logic[31:0] rdvalue,extmemdata, 
-	 output logic[4:0] swval,
-	 output logic[8:0] extmemaddress
+	 output logic[31:0] rdval,extmemdata, 
+	 input logic[4:0] swval,
+	 input logic[8:0] extmemaddress
 
 	 
 
@@ -20,7 +20,7 @@ logic [31:0] pcNext,pcIn1;
 logic isZero, pcBranch1;
 logic regWrite,immSelMux,LoadMux,MemRead,MemWrite,Con_Jalr,BranchSig;
 logic [2:0]LoadstoreSigodecoder;
-
+logic[31:0] rdvalue;
 
 
 adder_32 adder1(
@@ -101,7 +101,8 @@ RegFiles regF(
 	.rg_wrt_data(rdvalue),
 	.read_reg1(reg1_val),
 	.read_reg2(reg2_val),
-	.extaddress(swval)
+	.extaddress(swval),
+	.rdval(rdval)
 
 );
 //sign_extender

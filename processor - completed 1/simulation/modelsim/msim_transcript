@@ -10,150 +10,150 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datamemory.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datamemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datamemory.sv 
+# Start time: 10:57:13 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datamemory.sv 
 # -- Compiling module Datamemory
 # 
 # Top level modules:
 # 	Datamemory
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:13 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/ALUnitHW.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/ALUnitHW.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/ALUnitHW.sv 
+# Start time: 10:57:13 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/ALUnitHW.sv 
 # -- Compiling module ALUnitHW
 # 
 # Top level modules:
 # 	ALUnitHW
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:13 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Mux2input.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Mux2input.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Mux2input.sv 
+# Start time: 10:57:13 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Mux2input.sv 
 # -- Compiling module Mux2input
 # 
 # Top level modules:
 # 	Mux2input
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:13 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/RegFiles.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/RegFiles.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/RegFiles.sv 
+# Start time: 10:57:13 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/RegFiles.sv 
 # -- Compiling module RegFiles
 # 
 # Top level modules:
 # 	RegFiles
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:13 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/InstructionMemory.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/InstructionMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/InstructionMemory.sv 
+# Start time: 10:57:13 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/InstructionMemory.sv 
 # -- Compiling module InstructionMemory
 # 
 # Top level modules:
 # 	InstructionMemory
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:13 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/pc.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/pc.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/pc.sv 
+# Start time: 10:57:13 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/pc.sv 
 # -- Compiling module pc
 # 
 # Top level modules:
 # 	pc
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:13 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath.sv 
+# Start time: 10:57:13 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datapath.sv 
 # -- Compiling module Datapath
 # 
 # Top level modules:
 # 	Datapath
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:14 on Dec 03,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath_tb.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datapath_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath_tb.sv 
+# Start time: 10:57:14 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datapath_tb.sv 
 # -- Compiling module Datapath_tb
 # 
 # Top level modules:
 # 	Datapath_tb
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:14 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/imm_Gen.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/imm_Gen.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/imm_Gen.sv 
+# Start time: 10:57:14 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/imm_Gen.sv 
 # -- Compiling module imm_Gen
 # 
 # Top level modules:
 # 	imm_Gen
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:14 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Decoder3by3.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Decoder3by3.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:30 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Decoder3by3.sv 
+# Start time: 10:57:14 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Decoder3by3.sv 
 # -- Compiling module Decoder3by3
 # 
 # Top level modules:
 # 	Decoder3by3
-# End time: 20:46:30 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:14 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/adder_32.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/adder_32.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:31 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/adder_32.sv 
+# Start time: 10:57:14 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/adder_32.sv 
 # -- Compiling module adder_32
 # 
 # Top level modules:
 # 	adder_32
-# End time: 20:46:31 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:14 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/BranchSel.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/BranchSel.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:31 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/BranchSel.sv 
+# Start time: 10:57:14 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/BranchSel.sv 
 # -- Compiling module BranchSel
 # 
 # Top level modules:
 # 	BranchSel
-# End time: 20:46:31 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:14 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Microprogramming.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Microprogramming.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:31 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Microprogramming.sv 
+# Start time: 10:57:14 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Microprogramming.sv 
 # -- Compiling module Microprogramming
 # 
 # Top level modules:
 # 	Microprogramming
-# End time: 20:46:31 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:14 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/DeMux.sv}
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor\ -\ completed\ 1 {C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/DeMux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:46:31 on Nov 26,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1" C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/DeMux.sv 
+# Start time: 10:57:14 on Dec 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1" C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/DeMux.sv 
 # -- Compiling module DeMux
 # 
 # Top level modules:
 # 	DeMux
-# End time: 20:46:31 on Nov 26,2023, Elapsed time: 0:00:00
+# End time: 10:57:14 on Dec 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim work.Datapath_tb
 # vsim work.Datapath_tb 
-# Start time: 20:50:21 on Nov 26,2023
+# Start time: 10:57:18 on Dec 03,2023
 # Loading sv_std.std
 # Loading work.Datapath_tb
 # Loading work.Datapath
@@ -169,44 +169,17 @@ vsim work.Datapath_tb
 # Loading work.DeMux
 # Loading work.Datamemory
 # Loading work.Decoder3by3
-# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'swval'. The port definition is at: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut File: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath_tb.sv Line: 13
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'extaddress'. The port definition is at: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/RegFiles.sv(18).
-#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/regF File: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath.sv Line: 92
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (32) for port 'a'. The port definition is at: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datamemory.sv(9).
-#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/Dm File: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath.sv Line: 183
-vsim work.Datapath_tb
-# End time: 20:50:30 on Nov 26,2023, Elapsed time: 0:00:09
-# Errors: 0, Warnings: 3
-# vsim work.Datapath_tb 
-# Start time: 20:50:30 on Nov 26,2023
-# Loading sv_std.std
-# Loading work.Datapath_tb
-# Loading work.Datapath
-# Loading work.adder_32
-# Loading work.Mux2input
-# Loading work.BranchSel
-# Loading work.pc
-# Loading work.InstructionMemory
-# Loading work.RegFiles
-# Loading work.imm_Gen
-# Loading work.Microprogramming
-# Loading work.ALUnitHW
-# Loading work.DeMux
-# Loading work.Datamemory
-# Loading work.Decoder3by3
-# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'swval'. The port definition is at: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut File: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath_tb.sv Line: 13
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'extaddress'. The port definition is at: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/RegFiles.sv(18).
-#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/regF File: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath.sv Line: 92
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (32) for port 'a'. The port definition is at: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datamemory.sv(9).
-#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/Dm File: C:/Users/DELL/Desktop/Processor/FPGA_Tries/processor - completed 1/Datapath.sv Line: 183
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'swval'. The port definition is at: C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datapath.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut File: C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datapath_tb.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'extaddress'. The port definition is at: C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/RegFiles.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/regF File: C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datapath.sv Line: 92
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (32) for port 'a'. The port definition is at: C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datamemory.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/Dm File: C:/Users/DELL/Desktop/FPGA_Tries-main/processor - completed 1/Datapath.sv Line: 183
 add wave -position insertpoint  \
 sim:/Datapath_tb/clk \
 sim:/Datapath_tb/reset \
 sim:/Datapath_tb/rdvalue \
 sim:/Datapath_tb/swval
-add wave -position end  sim:/Datapath_tb/dut/Imem/instruction
 add wave -position end  sim:/Datapath_tb/dut/pcreg/pc_in
 add wave -position end  sim:/Datapath_tb/dut/pcreg/pc_out
 add wave -position end  sim:/Datapath_tb/dut/regF/RegWrite
@@ -218,6 +191,7 @@ add wave -position end  sim:/Datapath_tb/dut/regF/read_reg1
 add wave -position end  sim:/Datapath_tb/dut/regF/read_reg2
 add wave -position end  sim:/Datapath_tb/dut/regF/extaddress
 add wave -position end  sim:/Datapath_tb/dut/regF/register_file
+add wave -position 6  sim:/Datapath_tb/dut/Imem/instruction
 add wave -position end  sim:/Datapath_tb/dut/Dm/Memcopy
 add wave -position end  sim:/Datapath_tb/dut/Dm/MemRead
 add wave -position end  sim:/Datapath_tb/dut/Dm/MemWrite
@@ -230,26 +204,24 @@ add wave -position end  sim:/Datapath_tb/dut/Dm/rd
 add wave -position end  sim:/Datapath_tb/dut/Dm/mem
 add wave -position end  sim:/Datapath_tb/dut/Dm/state
 add wave -position end  sim:/Datapath_tb/dut/Dm/signal
+add wave -position end  sim:/Datapath_tb/dut/Dm/i
 add wave -position end  sim:/Datapath_tb/dut/Dm/start
 add wave -position end  sim:/Datapath_tb/dut/Dm/dest
 add wave -position end  sim:/Datapath_tb/dut/Dm/size
-add wave -position end  sim:/Datapath_tb/dut/alu/rs1
-add wave -position end  sim:/Datapath_tb/dut/alu/rs2
-add wave -position end  sim:/Datapath_tb/dut/alu/aluControl
-add wave -position end  sim:/Datapath_tb/dut/alu/rd
-add wave -position end  sim:/Datapath_tb/dut/alu/rd1
-add wave -position end  sim:/Datapath_tb/dut/muxwrite/a
-add wave -position end  sim:/Datapath_tb/dut/muxwrite/b
-add wave -position end  sim:/Datapath_tb/dut/muxwrite/select
-add wave -position end  sim:/Datapath_tb/dut/muxwrite/out
-add wave -position end  sim:/Datapath_tb/dut/writemem/a
-add wave -position end  sim:/Datapath_tb/dut/writemem/select
-add wave -position end  sim:/Datapath_tb/dut/writemem/out1
-add wave -position end  sim:/Datapath_tb/dut/writemem/out2
 run
 run
 run
 run
 run
-# End time: 20:54:39 on Nov 26,2023, Elapsed time: 0:04:09
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 14:36:40 on Dec 03,2023, Elapsed time: 3:39:22
 # Errors: 0, Warnings: 3

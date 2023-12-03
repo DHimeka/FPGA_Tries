@@ -9,7 +9,7 @@ module Datamemory #(
     input logic [ DATA_W -1:0] wd , // Write Data
     output logic [ DATA_W -1:0] rd, extmemdata, // Read Data
 	 
-	 output logic [8:0] extmemaddress
+	 input logic [8:0] extmemaddress
     );
     
     logic [DATA_W-1:0] mem [(2**DM_ADDRESS)-1:0];
@@ -28,12 +28,11 @@ module Datamemory #(
     always @(posedge clk) begin
        if (MemWrite)begin
             mem[a] = wd;
-				extmemaddress = a;
-				extmemdata = wd;
+			
 		 end
     end
 	 
 	 
-
+	assign extmemdata = mem[extmemaddress];
     
 endmodule

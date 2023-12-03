@@ -1,0 +1,74 @@
+`timescale 1ns/1ps
+
+module Microprogramming_tb;
+
+  // Parameters
+  localparam OPCODE_LENGTH = 7;
+  localparam FUNCT3_LENGTH = 3;
+  localparam FUNCT7_LENGTH = 7;
+
+  // Signals
+  reg [OPCODE_LENGTH-1:0] Opcode;
+  reg [FUNCT3_LENGTH-1:0] Funct3;
+  reg [FUNCT7_LENGTH-1:0] Funct7;
+
+  wire regWrite;
+  wire immSelMux;
+  wire LoadMux;
+  wire MemRead;
+  wire MemWrite;
+  wire Con_Jalr;
+  wire BranchSig;
+  wire [3:0] ALUSignal;
+  wire [1:0] SelSignalforBranchSel;
+  wire [2:0] LoadstoreSigodecoder;
+
+  // Instantiate the Microprogramming module
+  Microprogramming #(OPCODE_LENGTH, FUNCT3_LENGTH, FUNCT7_LENGTH) dut (
+    .Opcode(Opcode),
+    .Funct3(Funct3),
+    .Funct7(Funct7),
+    .regWrite(regWrite),
+    .immSelMux(immSelMux),
+    .LoadMux(LoadMux),
+    .MemRead(MemRead),
+    .MemWrite(MemWrite),
+    .Con_Jalr(Con_Jalr),
+    .BranchSig(BranchSig),
+    .ALUSignal(ALUSignal),
+    .SelSignalforBranchSel(SelSignalforBranchSel),
+    .LoadstoreSigodecoder(LoadstoreSigodecoder)
+  );
+
+  // Clock generation
+  reg clk = 0;
+  always begin
+    #5 clk = ~clk;
+  end
+
+  // Test cases
+  initial begin
+    // Test 1: Example control signals for an ADD operation
+    Opcode = 7'b0110011; // R-type instruction
+    Funct3 = 3'b000;     // ADD
+    Funct7 = 7'b0000000;
+    #10; // Wait for some time
+    $display("Test 1: ADD Control Signals");
+    $display("regWrite: %b", regWrite);
+    $display("immSelMux: %b", immSelMux);
+    $display("LoadMux: %b", LoadMux);
+    $display("MemRead: %b", MemRead);
+    $display("MemWrite: %b", MemWrite);
+    $display("Con_Jalr: %b", Con_Jalr);
+    $display("BranchSig: %b", BranchSig);
+    $display("ALUSignal: %h", ALUSignal);
+    $display("SelSignalforBranchSel: %b", SelSignalforBranchSel);
+    $display("LoadstoreSigodecoder: %h", LoadstoreSigodecoder);
+
+    // Add more test cases here...
+
+    // Finish the simulation
+    $finish;
+  end
+
+endmodule

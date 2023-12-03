@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Sun Nov 26 20:59:37 2023
+Analysis & Elaboration Status : Successful - Sun Dec 03 10:56:58 2023
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : NP_Processor
-Top-level Entity Name : try
+Top-level Entity Name : Datapath_tb
 Family : Cyclone IV E
-Total logic elements : 42,363
-    Total combinational functions : 41,915
-    Dedicated logic registers : 17,005
-Total registers : 17005
-Total pins : 21
-Total virtual pins : 0
-Total memory bits : 0
-Embedded Multiplier 9-bit elements : 0
-Total PLLs : 0
+Total logic elements : N/A until Partition Merge
+    Total combinational functions : N/A until Partition Merge
+    Dedicated logic registers : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge

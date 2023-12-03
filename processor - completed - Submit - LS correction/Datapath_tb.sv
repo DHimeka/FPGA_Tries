@@ -17,7 +17,7 @@ module Datapath_tb();
 		  .swval(swval),
 		  .extmemdata(extmemdata),
 		  .extmemaddress(extmemaddress),
-		  .rdvalue(rdvalue)
+		  .rdval(rdvalue)
     );
 
 
@@ -27,5 +27,30 @@ module Datapath_tb();
 		#15;
 		reset=1;
 	 end
+	 
+	 initial begin
+    // Set input values
+    swval = 10;
+    extmemaddress = 64;
+
+    // Wait for a few clock cycles
+    #20;
+
+    // Check the output values
+    $display("rdval = %d, extmemdata = %d", rdvalue, extmemdata);
+	 
+	 swval = 11;
+    extmemaddress = 64;
+
+    // Wait for a few clock cycles
+    #20;
+
+    // Check the output values
+    $display("rdval = %d, extmemdata = %d", rdvalue, extmemdata);
+
+    // Add more test scenarios as needed
+
+  end
+
 
 endmodule
