@@ -1,0 +1,65 @@
+module MEM_WB(
+	input logic clk_i,
+	input logic reset_i,
+	//input logic [31:0] pc_i,
+	input logic [31:0] pcNext_i,
+	input logic [31:0]pcIn_i,
+	input logic [31:0]valueplusImm_i,
+	input logic [31:0]pcplusImm_i,
+	
+	
+	input logic [31:0]ALUResult_i,
+	input logic [31:0]memWrite_out2_i,
+	input logic [4:0]rd_i,
+	
+	input logic pcBranch_i,RegWrite_i,Con_Jalr_i,LoadMux_i,
+	
+	//output logic [31:0] pc_o,
+	output logic [31:0] pcNext_o,
+	output logic [31:0] pcIn_o,
+	output logic [31:0] valueplusImm_o,
+	output logic [31:0] pcplusImm_o,
+	
+	
+	output logic [31:0] ALUResult_o,
+	output logic [31:0] memWrite_out2_o,
+	output logic [4:0] rd_o,
+	
+	output logic pcBranch_o,RegWrite_o,Con_Jalr_o,LoadMux_o
+	
+);
+
+
+
+always@(posedge clk_i) begin
+	if(~reset_i) begin
+		//pc_o<=0;
+		pcNext_o<=0;
+	   pcIn_o<=0;
+		valueplusImm_o<=0;
+	   pcplusImm_o<=0;
+		ALUResult_o<=0;
+		memWrite_out2_o<=0;
+		rd_o<=0;
+		pcBranch_o<=0;
+		RegWrite_o<=0;
+		Con_Jalr_o<=0;
+		LoadMux_o<=0;
+	end
+	else begin
+		//pc_o<=pc_i;
+		pcNext_o<=pcNext_i;
+	   pcIn_o<=pcIn_i;
+		valueplusImm_o<=valueplusImm_i;
+	   pcplusImm_o<=pcplusImm_i;
+		ALUResult_o<=ALUResult_i;
+		memWrite_out2_o<=memWrite_out2_i;
+		rd_o<=rd_i;
+		pcBranch_o<=pcBranch_i;
+		RegWrite_o<=RegWrite_i;
+		Con_Jalr_o<=Con_Jalr_i;
+		LoadMux_o<=LoadMux_i;
+	end
+end
+
+endmodule

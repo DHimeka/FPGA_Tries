@@ -1,0 +1,594 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1703858375
+!i10b 1
+!s100 jC`KndYej^9Yn;MT;U2<C2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=i<``6JIPV=F5iJ=RPM0D1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1620492819
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/adder.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/adder.sv
+!i122 21
+L0 1 7
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1703858375.000000
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/adder.sv|
+!i113 1
+Z8 o-sv -work work
+Z9 !s92 -sv -work work {+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V}
+Z10 tCvgOpt 0
+vAlu64
+R1
+R2
+!i10b 1
+!s100 B;EPf1=S83>L6XC8C<LHk2
+R3
+IGizoA82Q8eElS3i<iK:IF1
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/alu_64bit.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/alu_64bit.sv
+!i122 20
+L0 1 24
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/alu_64bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/alu_64bit.sv|
+!i113 1
+R8
+R9
+R10
+n@alu64
+valu_control
+R1
+R2
+!i10b 1
+!s100 EJQIZ`]95meXOD<g^47Ei2
+R3
+IQ6GX2Ab[fMifF`SU@QbB`0
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/alu_control.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/alu_control.sv
+!i122 19
+L0 1 36
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/alu_control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/alu_control.sv|
+!i113 1
+R8
+R9
+R10
+vbranching_unit
+R1
+R2
+!i10b 1
+!s100 M]`nS<imgO;9LgDPkLY9G0
+R3
+I;hjkjVX5S>VXR7e6ibk9e3
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/branching_unit.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/branching_unit.sv
+!i122 18
+L0 1 40
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/branching_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/branching_unit.sv|
+!i113 1
+R8
+R9
+R10
+vCU
+R1
+R2
+!i10b 1
+!s100 _91Jbz5K>aa?[mhid@]Zm1
+R3
+Ie@aRk2JU79kVf]ECDHk2z1
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/control_unit.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/control_unit.sv
+!i122 17
+L0 1 93
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/control_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/control_unit.sv|
+!i113 1
+R8
+R9
+R10
+n@c@u
+vdata_memory
+R1
+R2
+!i10b 1
+!s100 7L?K^IZ5Nn9=he7]5^2AG3
+R3
+IJ4P>Am8Bc]eE5lMHR8A:H3
+R4
+S1
+R0
+w1703846178
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/data_memory.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/data_memory.sv
+!i122 16
+L0 2 72
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/data_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/data_memory.sv|
+!i113 1
+R8
+R9
+R10
+vEXMEM
+R1
+R2
+!i10b 1
+!s100 ;H50]RkKT@kB4BRZEQRD73
+R3
+Ia71j8GQE>P?R5IKaae=6W3
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/EXMEM.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/EXMEM.sv
+!i122 15
+L0 2 50
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/EXMEM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/EXMEM.sv|
+!i113 1
+R8
+R9
+R10
+n@e@x@m@e@m
+vForwardingUnit
+R1
+R2
+!i10b 1
+!s100 4go6o9U2GPQ6X;]6NUN_>1
+R3
+I96JlBmH4=eZXI;nzhC:kl1
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/ForwardingUnit.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/ForwardingUnit.sv
+!i122 14
+L0 1 50
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/ForwardingUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/ForwardingUnit.sv|
+!i113 1
+R8
+R9
+R10
+n@forwarding@unit
+vhazard_detection_unit
+R1
+Z11 !s110 1703858374
+!i10b 1
+!s100 5gcTLYbDc=:;Rkg@dGaLL0
+R3
+IXRhO3V4djG]0n5AiY<cKf2
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/hazard_detection_unit.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/hazard_detection_unit.sv
+!i122 13
+L0 1 21
+R6
+r1
+!s85 0
+31
+Z12 !s108 1703858374.000000
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/hazard_detection_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/hazard_detection_unit.sv|
+!i113 1
+R8
+R9
+R10
+vIDEX
+R1
+R11
+!i10b 1
+!s100 Nef;Vz8bjnDC1Mg>KfcOm1
+R3
+Ii^7=0gW[EHa3ImElG@F@I2
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/IDEX.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/IDEX.sv
+!i122 12
+L0 1 66
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/IDEX.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/IDEX.sv|
+!i113 1
+R8
+R9
+R10
+n@i@d@e@x
+vIFID
+R1
+R11
+!i10b 1
+!s100 LOl<4NKHX;9cH6ROF=JEF1
+R3
+IboKSR]RBjHEb4Uj]`@UWW3
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/IFID.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/IFID.sv
+!i122 11
+L0 1 25
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/IFID.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/IFID.sv|
+!i113 1
+R8
+R9
+R10
+n@i@f@i@d
+vimm_data_extractor
+R1
+R11
+!i10b 1
+!s100 7kgRL@W1^kIh2;oiQHE>=1
+R3
+IDj4li83jSOLZBjc?ZH0NQ0
+R4
+S1
+R0
+w1703841661
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/imm_data_extractor.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/imm_data_extractor.sv
+!i122 10
+L0 2 26
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/imm_data_extractor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/imm_data_extractor.sv|
+!i113 1
+R8
+R9
+R10
+vinstruction_memory
+R1
+R11
+!i10b 1
+!s100 l5JU?;DI;gjQD_jghcjN=2
+R3
+I9W;6U_RaE<de]ZTG6h0_G1
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/instruction_memory.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/instruction_memory.sv
+!i122 9
+L0 2 38
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/instruction_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/instruction_memory.sv|
+!i113 1
+R8
+R9
+R10
+vinstruction_parser
+R1
+R11
+!i10b 1
+!s100 c3bjM9ITQOfbel]1eRL>h1
+R3
+ISWnILUzOkZDL6eKh0;EJX2
+R4
+S1
+R0
+w1703841703
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/instruction_parser.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/instruction_parser.sv
+!i122 8
+L0 1 18
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/instruction_parser.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/instruction_parser.sv|
+!i113 1
+R8
+R9
+R10
+vMEMWB
+R1
+R11
+!i10b 1
+!s100 iiLF1m9nQ:h99EA4So<Zk2
+R3
+IQGKR60IU3ZoAd1CB:=>nU2
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/MEMWB.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/MEMWB.sv
+!i122 7
+L0 2 33
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/MEMWB.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/MEMWB.sv|
+!i113 1
+R8
+R9
+R10
+n@m@e@m@w@b
+vpipeline_flush
+R1
+R11
+!i10b 1
+!s100 azbfHN6gbo?MLS8eVHVJE0
+R3
+IW]OP;Ie1U7cdHJFdR5z5I3
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/pipeline_flush.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/pipeline_flush.sv
+!i122 6
+L0 1 20
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/pipeline_flush.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/pipeline_flush.sv|
+!i113 1
+R8
+R9
+R10
+vprogram_counter
+R1
+R11
+!i10b 1
+!s100 2CF`G^zkeTmLf:>H6]38I2
+R3
+I>d]^5:;;]ML2o<4L4anYm0
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/program_counter.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/program_counter.sv
+!i122 5
+L0 1 19
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/program_counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/program_counter.sv|
+!i113 1
+R8
+R9
+R10
+vregisterFile
+R1
+R11
+!i10b 1
+!s100 =_AISTLTFB4lI`dI>;g]X1
+R3
+IOOZcMT_21gFRJZ;5b;<NA1
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/reg_file.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/reg_file.sv
+!i122 4
+L0 1 78
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/reg_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/reg_file.sv|
+!i113 1
+R8
+R9
+R10
+nregister@file
+vRISC_V_Processor
+R1
+Z13 !s110 1703858373
+!i10b 1
+!s100 j]jd`?o9i]N>?cAcb4ZRY3
+R3
+IgXFWB3>ZdJ[iH63CFh;fE3
+R4
+S1
+R0
+w1703844937
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/RISC_V_Processor.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/RISC_V_Processor.sv
+!i122 0
+L0 1 339
+R6
+r1
+!s85 0
+31
+Z14 !s108 1703858373.000000
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/RISC_V_Processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/RISC_V_Processor.sv|
+!i113 1
+R8
+R9
+R10
+n@r@i@s@c_@v_@processor
+vtestbench
+R1
+R11
+!i10b 1
+!s100 1R_bY;h=lJa7O;_XA2fXE0
+R3
+IMO=zaO0fe2B=BCPmWd@Xn2
+R4
+S1
+R0
+w1703858357
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/testbench.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/testbench.sv
+!i122 3
+L0 1 45
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/testbench.sv|
+!i113 1
+R8
+R9
+R10
+vThreebyOneMux
+R1
+R11
+!i10b 1
+!s100 DZHV=2^0LCITg56PL__710
+R3
+IY;b_UTHCb2gcWJi;kYbV53
+R4
+S1
+R0
+R5
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/ThreebyOneMux.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/ThreebyOneMux.sv
+!i122 2
+L0 2 17
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/ThreebyOneMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/ThreebyOneMux.sv|
+!i113 1
+R8
+R9
+R10
+n@threeby@one@mux
+vTwobyOneMux
+R1
+R13
+!i10b 1
+!s100 =z3zfW0H7he:;`^Sa5m910
+R3
+IR[ADT87nG0_bcdfUVGEWJ0
+R4
+S1
+R0
+w1703841738
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/TwobyOneMux.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/TwobyOneMux.sv
+!i122 1
+L0 1 12
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/TwobyOneMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/PipelinedProcessor/RISC-V-Pipelined-Processor-main/RISC-V Pipelined Processor/RISC-V/TwobyOneMux.sv|
+!i113 1
+R8
+R9
+R10
+n@twoby@one@mux

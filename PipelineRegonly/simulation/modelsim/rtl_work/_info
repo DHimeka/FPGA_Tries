@@ -1,0 +1,495 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/simulation/modelsim
+vadder_32
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1703949775
+!i10b 1
+!s100 LGEX=5:h6=O>a8TDbBb]H0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaQN;da4Z9XhKQEdVIP_@]1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1696758274
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/adder_32.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/adder_32.sv
+!i122 10
+L0 1 9
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1703949775.000000
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/adder_32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/adder_32.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction}
+Z9 tCvgOpt 0
+vALUnitHW
+R1
+Z10 !s110 1703949774
+!i10b 1
+!s100 iDNFV]_=HnP5eN`j6Jd083
+R3
+IXe:Y7YGWfL=LCc_D3QOeH2
+R4
+S1
+R0
+w1697340774
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/ALUnitHW.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/ALUnitHW.sv
+!i122 1
+L0 1 44
+R5
+r1
+!s85 0
+31
+Z11 !s108 1703949774.000000
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/ALUnitHW.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/ALUnitHW.sv|
+!i113 1
+R7
+R8
+R9
+n@a@l@unit@h@w
+vBranchSel
+R1
+R2
+!i10b 1
+!s100 S012K0ED8]?O^li<HOj8Z2
+R3
+IYBNP<Ak`7j6F2GRLa<F`_3
+R4
+S1
+R0
+w1696872308
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/BranchSel.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/BranchSel.sv
+!i122 11
+L0 1 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/BranchSel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/BranchSel.sv|
+!i113 1
+R7
+R8
+R9
+n@branch@sel
+vDatamemory
+R1
+R10
+!i10b 1
+!s100 kAULf;@LIg:Xg:S=]kd`f3
+R3
+IKjD>EVTW354gH>NgL<noI1
+R4
+S1
+R0
+w1703936490
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datamemory.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datamemory.sv
+!i122 0
+Z12 L0 1 38
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datamemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datamemory.sv|
+!i113 1
+R7
+R8
+R9
+n@datamemory
+vDatapath
+R1
+R2
+!i10b 1
+!s100 2aPSF3lBlOa6UY?^z@Czf1
+R3
+ImWcFehPLO:3PeZbPTm<[:2
+R4
+S1
+R0
+w1703949409
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datapath.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datapath.sv
+!i122 6
+L0 1 353
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datapath.sv|
+!i113 1
+R7
+R8
+R9
+n@datapath
+vDatapath_tb
+R1
+R2
+!i10b 1
+!s100 WeBz=R42V7O0QS4gIT31o2
+R3
+I6HkQcfU:NPn^KMjo]Jl243
+R4
+S1
+R0
+w1703936728
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datapath_tb.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datapath_tb.sv
+!i122 7
+L0 1 58
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datapath_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Datapath_tb.sv|
+!i113 1
+R7
+R8
+R9
+n@datapath_tb
+vDecoder3by3
+R1
+R2
+!i10b 1
+!s100 KeLZTzl8O[^SiXWUl:iTW0
+R3
+I20UUzl5:MeP2]?9]`b=XZ1
+R4
+S1
+R0
+w1699957237
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Decoder3by3.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Decoder3by3.sv
+!i122 9
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Decoder3by3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Decoder3by3.sv|
+!i113 1
+R7
+R8
+R9
+n@decoder3by3
+vDeMux
+R1
+R2
+!i10b 1
+!s100 V>ha0?Y63FBk1T8Z4W0kn0
+R3
+ILj^<g2`6KX@W];^eXAKHM3
+R4
+S1
+R0
+w1699957232
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/DeMux.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/DeMux.sv
+!i122 13
+L0 1 11
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/DeMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/DeMux.sv|
+!i113 1
+R7
+R8
+R9
+n@de@mux
+vEX_MEM
+R1
+R2
+!i10b 1
+!s100 >5hz?VNF^I;H2b2CQn=Xm1
+R3
+I4iABHS[gU@L7D8T_BLGQW2
+R4
+S1
+R0
+w1703943832
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/EX_MEM.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/EX_MEM.sv
+!i122 16
+L0 1 82
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/EX_MEM.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/EX_MEM.sv|
+!i113 1
+R7
+R8
+R9
+n@e@x_@m@e@m
+vID_EX
+R1
+R2
+!i10b 1
+!s100 <d7PbUc^GFhTz8YE6TGkC2
+R3
+I1dKi^c6>0HR`l4Z[[imBR2
+R4
+S1
+R0
+Z13 w1703940774
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/ID_EX.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/ID_EX.sv
+!i122 15
+L0 1 95
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/ID_EX.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/ID_EX.sv|
+!i113 1
+R7
+R8
+R9
+n@i@d_@e@x
+vIF_ID
+R1
+R2
+!i10b 1
+!s100 ^eQcjn4?ZT>BVOMA9LMo`1
+R3
+IKFh`Ibl8VR4J;J5PKbN9]2
+R4
+S1
+R0
+R13
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/IF_ID.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/IF_ID.sv
+!i122 14
+L0 1 56
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/IF_ID.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/IF_ID.sv|
+!i113 1
+R7
+R8
+R9
+n@i@f_@i@d
+vimm_Gen
+R1
+R2
+!i10b 1
+!s100 MLF0@KGP:n5XB76NaLBA=1
+R3
+I4Mi_gM`gPQcKRJblj^3CE3
+R4
+S1
+R0
+w1696999838
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/imm_Gen.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/imm_Gen.sv
+!i122 8
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/imm_Gen.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/imm_Gen.sv|
+!i113 1
+R7
+R8
+R9
+nimm_@gen
+vInstructionMemory
+R1
+R10
+!i10b 1
+!s100 czJMiT1oc=IQ3TWzb:5UZ1
+R3
+ImZdB=j70SI5`lTckmS:6Z0
+R4
+S1
+R0
+w1703949758
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/InstructionMemory.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/InstructionMemory.sv
+!i122 4
+L0 1 50
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/InstructionMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/InstructionMemory.sv|
+!i113 1
+R7
+R8
+R9
+n@instruction@memory
+vMEM_WB
+R1
+R2
+!i10b 1
+!s100 hig2VKcIEKWYk=i[5C_4D0
+R3
+IHTP]UBDIH=Ymn3:GLfBG21
+R4
+S1
+R0
+w1703940775
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/MEM_WB.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/MEM_WB.sv
+!i122 17
+L0 1 65
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/MEM_WB.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/MEM_WB.sv|
+!i113 1
+R7
+R8
+R9
+n@m@e@m_@w@b
+vMicroprogramming
+R1
+R2
+!i10b 1
+!s100 lIYG9`b2:;hZJ:D7[>dm@2
+R3
+I>ok2ObPL1]^l4nfFRll`j2
+R4
+S1
+R0
+w1701279310
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Microprogramming.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Microprogramming.sv
+!i122 12
+L0 1 217
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Microprogramming.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Microprogramming.sv|
+!i113 1
+R7
+R8
+R9
+n@microprogramming
+vMux2input
+R1
+R10
+!i10b 1
+!s100 ;l>FZDgNCQiUNe1n<haMb1
+R3
+IX^RST@L69:Jn_:WCRfV:M3
+R4
+S1
+R0
+w1696623970
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Mux2input.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Mux2input.sv
+!i122 2
+L0 1 10
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Mux2input.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/Mux2input.sv|
+!i113 1
+R7
+R8
+R9
+n@mux2input
+vpc
+R1
+R2
+!i10b 1
+!s100 PX3So=U_4V4NFZCeDGH1i0
+R3
+I9zNQH6LJIOz^iLU2GY4PV0
+R4
+S1
+R0
+w1701110511
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/pc.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/pc.sv
+!i122 5
+L0 1 16
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/pc.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/pc.sv|
+!i113 1
+R7
+R8
+R9
+vRegFiles
+R1
+R10
+!i10b 1
+!s100 jB`;?:I^eh8C5nW4Bc9c:0
+R3
+IKZfzoS>??flcWR>zeQDY00
+R4
+S1
+R0
+w1703939294
+8C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/RegFiles.sv
+FC:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/RegFiles.sv
+!i122 3
+L0 1 46
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/RegFiles.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction|C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/processor - completed - Submit - LS correction/RegFiles.sv|
+!i113 1
+R7
+R8
+R9
+n@reg@files
