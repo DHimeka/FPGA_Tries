@@ -1,0 +1,61 @@
+Resource Utilization by Entity report for NP_Processor
+Mon Jan 01 10:17:15 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Resource Utilization by Entity
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                              ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------+-------------------+--------------+
+; Compilation Hierarchy Node    ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                ; Entity Name       ; Library Name ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------+-------------------+--------------+
+; |Datapath                     ; 23934 (0)           ; 17157 (0)                 ; 0           ; 0            ; 0       ; 0         ; 80   ; 0            ; |Datapath                          ; Datapath          ; work         ;
+;    |ALUnitHW:alu|             ; 203 (203)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|ALUnitHW:alu             ; ALUnitHW          ; work         ;
+;    |Datamemory:Dm|            ; 22354 (22354)       ; 16384 (16384)             ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|Datamemory:Dm            ; Datamemory        ; work         ;
+;    |DeMux:writemem|           ; 33 (33)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|DeMux:writemem           ; DeMux             ; work         ;
+;    |Decoder3by3:dc|           ; 41 (41)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|Decoder3by3:dc           ; Decoder3by3       ; work         ;
+;    |EX_MEM:pipReg3|           ; 127 (127)           ; 83 (83)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|EX_MEM:pipReg3           ; EX_MEM            ; work         ;
+;    |ID_EX:pipReg2|            ; 484 (484)           ; 99 (99)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|ID_EX:pipReg2            ; ID_EX             ; work         ;
+;    |IF_ID:PipReg1|            ; 10 (10)             ; 26 (26)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|IF_ID:PipReg1            ; IF_ID             ; work         ;
+;    |InstructionMemory:Imem|   ; 29 (29)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|InstructionMemory:Imem   ; InstructionMemory ; work         ;
+;    |MEM_WB:pipReg4|           ; 83 (83)             ; 80 (80)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|MEM_WB:pipReg4           ; MEM_WB            ; work         ;
+;    |Microprogramming:CU|      ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|Microprogramming:CU      ; Microprogramming  ; work         ;
+;    |Mux2input:muxImmSel|      ; 72 (72)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|Mux2input:muxImmSel      ; Mux2input         ; work         ;
+;    |Mux2input:muxLoadSel|     ; 32 (32)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|Mux2input:muxLoadSel     ; Mux2input         ; work         ;
+;    |Mux2input:muxwrite|       ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|Mux2input:muxwrite       ; Mux2input         ; work         ;
+;    |Mux3input:ForwardToData1| ; 67 (67)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|Mux3input:ForwardToData1 ; Mux3input         ; work         ;
+;    |RegFiles:regF|            ; 375 (375)           ; 480 (480)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|RegFiles:regF            ; RegFiles          ; work         ;
+;    |forwarding_unit:FW|       ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|forwarding_unit:FW       ; forwarding_unit   ; work         ;
+;    |imm_Gen:immGen|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|imm_Gen:immGen           ; imm_Gen           ; work         ;
+;    |pc:pcreg|                 ; 5 (5)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Datapath|pc:pcreg                 ; pc                ; work         ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------+-------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+

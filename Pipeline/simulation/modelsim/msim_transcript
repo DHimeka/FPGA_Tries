@@ -1,0 +1,369 @@
+# Reading pref.tcl
+# do NP_Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Datamemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:10 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Datamemory.sv 
+# -- Compiling module Datamemory
+# 
+# Top level modules:
+# 	Datamemory
+# End time: 19:44:10 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/ALUnitHW.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:10 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/ALUnitHW.sv 
+# -- Compiling module ALUnitHW
+# 
+# Top level modules:
+# 	ALUnitHW
+# End time: 19:44:10 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Mux2input.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:10 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Mux2input.sv 
+# -- Compiling module Mux2input
+# 
+# Top level modules:
+# 	Mux2input
+# End time: 19:44:10 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/RegFiles.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:10 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/RegFiles.sv 
+# -- Compiling module RegFiles
+# 
+# Top level modules:
+# 	RegFiles
+# End time: 19:44:10 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/InstructionMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:10 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/InstructionMemory.sv 
+# -- Compiling module InstructionMemory
+# 
+# Top level modules:
+# 	InstructionMemory
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/pc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/pc.sv 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Datapath.sv 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Datapath_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Datapath_tb.sv 
+# -- Compiling module Datapath_tb
+# 
+# Top level modules:
+# 	Datapath_tb
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/imm_Gen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/imm_Gen.sv 
+# -- Compiling module imm_Gen
+# 
+# Top level modules:
+# 	imm_Gen
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Decoder3by3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Decoder3by3.sv 
+# -- Compiling module Decoder3by3
+# 
+# Top level modules:
+# 	Decoder3by3
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/adder_32.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/adder_32.sv 
+# -- Compiling module adder_32
+# 
+# Top level modules:
+# 	adder_32
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv 
+# -- Compiling module BranchSel
+# 
+# Top level modules:
+# 	BranchSel
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Microprogramming.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Microprogramming.sv 
+# -- Compiling module Microprogramming
+# 
+# Top level modules:
+# 	Microprogramming
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/DeMux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/DeMux.sv 
+# -- Compiling module DeMux
+# 
+# Top level modules:
+# 	DeMux
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/IF_ID.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:11 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/IF_ID.sv 
+# -- Compiling module IF_ID
+# 
+# Top level modules:
+# 	IF_ID
+# End time: 19:44:11 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/ID_EX.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:12 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/ID_EX.sv 
+# -- Compiling module ID_EX
+# 
+# Top level modules:
+# 	ID_EX
+# End time: 19:44:12 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/EX_MEM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:12 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/EX_MEM.sv 
+# -- Compiling module EX_MEM
+# 
+# Top level modules:
+# 	EX_MEM
+# End time: 19:44:12 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/MEM_WB.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:12 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/MEM_WB.sv 
+# -- Compiling module MEM_WB
+# 
+# Top level modules:
+# 	MEM_WB
+# End time: 19:44:12 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/forwarding_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:12 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/forwarding_unit.sv 
+# -- Compiling module forwarding_unit
+# 
+# Top level modules:
+# 	forwarding_unit
+# End time: 19:44:12 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Mux3input.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:12 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Mux3input.sv 
+# -- Compiling module Mux3input
+# 
+# Top level modules:
+# 	Mux3input
+# End time: 19:44:12 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/HazardDetectUnit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:12 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/HazardDetectUnit.sv 
+# -- Compiling module HazardDetectUnit
+# 
+# Top level modules:
+# 	HazardDetectUnit
+# End time: 19:44:12 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/MUX_Control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:12 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/MUX_Control.sv 
+# -- Compiling module MUX_Control
+# 
+# Top level modules:
+# 	MUX_Control
+# End time: 19:44:12 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/DELL/Desktop/My\ Sem\ 5/DSD/Processor/FPGA_Tries/Pipeline {C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/pipeline_flush.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:12 on Jan 01,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline" C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/pipeline_flush.sv 
+# -- Compiling module pipeline_flush
+# 
+# Top level modules:
+# 	pipeline_flush
+# End time: 19:44:12 on Jan 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.Datapath_tb
+# vsim work.Datapath_tb 
+# Start time: 19:44:16 on Jan 01,2024
+# Loading sv_std.std
+# Loading work.Datapath_tb
+# Loading work.Datapath
+# Loading work.adder_32
+# Loading work.Mux2input
+# Loading work.BranchSel
+# Loading work.pipeline_flush
+# Loading work.pc
+# Loading work.InstructionMemory
+# Loading work.HazardDetectUnit
+# Loading work.MUX_Control
+# Loading work.IF_ID
+# Loading work.RegFiles
+# Loading work.imm_Gen
+# Loading work.ID_EX
+# Loading work.Microprogramming
+# Loading work.Mux3input
+# Loading work.ALUnitHW
+# Loading work.forwarding_unit
+# Loading work.EX_MEM
+# Loading work.DeMux
+# Loading work.Datamemory
+# Loading work.Decoder3by3
+# Loading work.MEM_WB
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'SelSignalforBranchSel_o'. The port definition is at: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/MUX_Control.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/MUX_Control File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Datapath.sv Line: 125
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'sel_sig_i'. The port definition is at: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/ID_EX.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /Datapath_tb/dut/pipReg2 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/Datapath.sv Line: 192
+add wave -position insertpoint  \
+sim:/Datapath_tb/clk \
+sim:/Datapath_tb/reset \
+sim:/Datapath_tb/rdvalue \
+sim:/Datapath_tb/extmemdata \
+sim:/Datapath_tb/swval \
+sim:/Datapath_tb/extmemaddress
+add wave -position insertpoint  \
+sim:/Datapath_tb/dut/pcreg/stall \
+sim:/Datapath_tb/dut/pcreg/pc_in \
+sim:/Datapath_tb/dut/pcreg/pc_out
+add wave -position insertpoint  \
+sim:/Datapath_tb/dut/regF/register_file
+add wave -position insertpoint  \
+sim:/Datapath_tb/dut/Dm/mem
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 4  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+# rdval =          0, extmemdata =          x
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 30 ps  Iteration: 4  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+# rdval =          0, extmemdata =          x
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 50 ps  Iteration: 3  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 950 ps  Iteration: 4  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+run
+run
+run
+run
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 1490 ps  Iteration: 6  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+run
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 1670 ps  Iteration: 4  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 1690 ps  Iteration: 5  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 1710 ps  Iteration: 5  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+run
+run
+run
+run
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 2210 ps  Iteration: 3  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+run
+run
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 2570 ps  Iteration: 7  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 2590 ps  Iteration: 6  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+run
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 2610 ps  Iteration: 5  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 2630 ps  Iteration: 4  Process: /Datapath_tb/dut/bs/#implicit#unique__10 File: C:/Users/DELL/Desktop/My Sem 5/DSD/Processor/FPGA_Tries/Pipeline/BranchSel.sv Line: 10
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 00:34:14 on Jan 02,2024, Elapsed time: 4:49:58
+# Errors: 0, Warnings: 15
